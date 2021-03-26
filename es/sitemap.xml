@@ -3,8 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.pablomarcos.me/es/posts/concursos/</loc>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.pablomarcos.me/posts/concursos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.pablomarcos.me/fr/posts/concursos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.pablomarcos.me/es/posts/concursos/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.pablomarcos.me/es/</loc>
-    <lastmod>2021-03-23T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -23,13 +43,8 @@
   </url>
   
   <url>
-    <loc>https://www.pablomarcos.me/es/posts/poesia/</loc>
-    <lastmod>2021-03-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.pablomarcos.me/es/posts/</loc>
-    <lastmod>2021-03-23T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -48,6 +63,41 @@
   </url>
   
   <url>
+    <loc>https://www.pablomarcos.me/es/posts/concursos/season-of-kde-2021/</loc>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.pablomarcos.me/posts/concursos/season-of-kde-2021/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.pablomarcos.me/es/posts/concursos/season-of-kde-2021/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.pablomarcos.me/es/posts/concursos/season-of-kde-2021/sok-report-march/</loc>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.pablomarcos.me/posts/concursos/season-of-kde-2021/sok-report-march/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.pablomarcos.me/es/posts/concursos/season-of-kde-2021/sok-report-march/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.pablomarcos.me/es/posts/poesia/</loc>
+    <lastmod>2021-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.pablomarcos.me/es/posts/poesia/cerezo/</loc>
     <lastmod>2021-03-23T00:00:00+00:00</lastmod>
   </url>
@@ -63,8 +113,38 @@
   </url>
   
   <url>
+    <loc>https://www.pablomarcos.me/es/posts/concursos/season-of-kde-2021/sok-report-february/</loc>
+    <lastmod>2021-02-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.pablomarcos.me/posts/concursos/season-of-kde-2021/sok-report-february/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.pablomarcos.me/es/posts/concursos/season-of-kde-2021/sok-report-february/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.pablomarcos.me/es/posts/poesia/verde/</loc>
     <lastmod>2021-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pablomarcos.me/es/posts/concursos/season-of-kde-2021/sok-report-january/</loc>
+    <lastmod>2021-01-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.pablomarcos.me/posts/concursos/season-of-kde-2021/sok-report-january/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.pablomarcos.me/es/posts/concursos/season-of-kde-2021/sok-report-january/"
+                />
   </url>
   
   <url>
@@ -84,26 +164,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://www.pablomarcos.me/es/posts/concursos/centrodelenguas/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.pablomarcos.me/es/posts/concursos/</loc>
-    <lastmod>2020-12-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.pablomarcos.me/posts/concursos/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.pablomarcos.me/fr/posts/concursos/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.pablomarcos.me/es/posts/concursos/"
                 />
   </url>
   
