@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SoK 2021 January Report</title>
+    
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/style.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+<link rel="icon" type="image/png" href="/images/new-favicon_hucdd21eecb8229141dd7886643601b174_45610_42x0_resize_box_2.png" />
+
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+    
+<meta name="description" content="SoK 2021 January Report" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      <img src="/images/main-logo_hu47450349114826056e2be89059cb78d7_20725_42x0_resize_box_2.png">Pablo Marcos&#39; Blog</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+        
+
+  
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <img class="flag" src="https://www.countryflags.io/gb/flat/16.png">
+      English
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+      
+        <a class="dropdown-item nav-link languages-item" href="/es/posts/concursos/season-of-kde-2021/sok-report-january">
+          <img class="flag" src="https://www.countryflags.io/es/flat/24.png">
+          Español
+        </a>
+      
+    </div>
+</li>
+      
+      </ul>
+    </div>
+  </div>
+  
+  <img src="/images/main-logo_hu47450349114826056e2be89059cb78d7_20725_42x0_resize_box_2.png" class="d-none" id="main-logo">
+  <img src="/images/inverted-logo_hu54cab9b231ca4636ef2fd30ef75af799_11321_42x0_resize_box_2.png" class="d-none" id="inverted-logo">
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="https://www.pablomarcos.me/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/posts/concursos/">Contests</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/concursos/vinoyaceite2020/">ETSIAAB Labels 2020</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/concursos/centrodelenguas/">Language Center 2020</a></li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/posts/concursos/season-of-kde-2021/">Season of KDE 2021</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/concursos/season-of-kde-2021/sok-report-february/">SoK 2021 February</a></li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active" href="/posts/concursos/season-of-kde-2021/sok-report-january/">SoK 2021 January</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/concursos/season-of-kde-2021/sok-report-march/">SoK 2021 March</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://www.pablomarcos.me/posts/concursos/season-of-kde-2021/sok-report-january/hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/avataaars.png'/>
+          <h5 class="author-name">Pablo Ignacio Marcos López</h5>
+          <p>January 30, 2021</p>
+        </div>
+
+        <div class="title">
+          <h1>SoK 2021 January Report</h1>
+        </div>
+
+        <div class="post-content" id="post-content">
+          <p>I havent done much this January, as it was the &ldquo;partiels&rdquo; (final exams) month at INSA and I was really caught up studying. I did, however, find time to write the project application, which I have attached below for reference, and I spent what little time I was able to devote to SoK learning how to properly use HUGO and which templates I had to edit to get a given, desired result.</p>
+<hr>
+<h3 id="project-application-new-website-for-okular">Project Application: New Website for Okular</h3>
+<p>Okular is a multifaceted program that I use almost every day for my PDF reading and annotating needs, although it can do much more. Sadly, its website is a bit outdated and not mobile friendly. I thus propose to rewrite the Okular website using the HUGO framework, in a similar way as was done with the kde.org main website, keeping consistency with other KDE applications such as <a href="https://konsole.kde.org/">Konsole</a>. Fortunately, some work was already initiated by Carl Schwan, so I would only need to continue and finish his work.</p>
+<h4 id="project-goals">Project Goals</h4>
+<p>The updated Okular webpage should be beautiful, present the information in a clear way, and be easy to use. Some desired features are:</p>
+<ul>
+<li>Mobile-friendliness</li>
+<li>In-page search that is independent from google, i.e. using Lunar Search</li>
+<li>Updated screenshot section (the screenshots look outdated to me, but maybe its just that they were taken on a different platform)</li>
+<li>A more blog-like interface for the development news, maybe keeping the changelogs inside the Okular webpage</li>
+</ul>
+<p>Also, features already present in the current webpage, such as multilanguage support, should be preserved.</p>
+<h4 id="implementation">Implementation</h4>
+<p>As previously stated, work was already initiated by <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/tree/hugo">Carl Schwan</a>. The project uses the HUGO framework and some python scripts for i18n. Feedback from the Okular devs would be gathered throughout the process to ensure the new website accommodates their needs. Regarding the documentation, I believe that a basic description of how to make the site work would suffice, since HUGO is ultimately producing simple HTML/CSS/JS.</p>
+<h4 id="timeline">Timeline</h4>
+<ul>
+<li>Jan 13th: Start of work according to the KDE website</li>
+<li>Jan 15th - Jan 24thth: Familiarization with the platform and learning its inner workings. I am leaving lots of time here in case this ends up being more difficult than I believe, but possibly it could be done in a shorter time</li>
+<li>Jan 24th - Jan 31st: Last week of the semester at INSA, I will probably have presentations and work to do</li>
+<li>Feb 1st - Feb 12th: Coding time</li>
+<li>Feb 13th - Feb 21st: Vacations in France, if possible due to coronavirus I might go on vacation, so it would be difficult to code now</li>
+<li>Feb 22nd - March 28th: Coding time</li>
+<li>March 29th - April 4th: Work should be done by now, time to write a report on how everything went</li>
+<li>April 5th - April 9th: Last week before vacations in France, so it is possible that I will have work to do at uni</li>
+<li>April 9th: End of work according to the KDE website</li>
+</ul>
+<h4 id="about-me">About Me</h4>
+<p>I am a computational biotechnology student at UPMadrid currently doing an ERASMUS at INSA Lyon. I love open source, and use Kubuntu -hence, KDE- as my operating system of choice, and I would like to give back to the community by contributing something back. Although I mostly work with python (especially the BioPython package), I have previously used HUGO to make my personal website, <a href="https://www.pablomarcos.me">pablomarcos.me</a>, where more personal information and my full CV can be found. I have also worked on another project with a user facing UI: <a href="https://flyingflamingo.itch.io/whos-that-function">Who&rsquo;s that Function</a>, an interactive game that teaches first grade students the properties of functions, as part of a teacher-student collaboration scholarship; although it is not super related.</p>
+<p>I am completely comfortable working remotely, as I already did so for the aforementioned game due to COVID-19 restrictions, and, although English is not my native language, I can write and speak it fluently. I can also speak Spanish, my mother tongue, and French.</p>
+<hr>
+<p>P.S.: Also, back in Spain, <a href="https://www.eldiario.es/sociedad/filomena-tine-blanco-espana-imagenes-nevada-historica_3_6738421.html">there was a lot of snow!</a> Which is super nice :p although some people (my mother included) were trapped in their jobs. In case you are curious, here is a photo of Alcalá Street in Madrid, covered with snow due to the storm Borrasca Filomena. <a href="https://commons.wikimedia.org/wiki/File:Borrasca_Filomena_Calle_de_Alcal%C3%A1.jpg">Javier Pérez Montes</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</p>
+<figure>
+    <img src="/posts/Imagenes/filomena-madrid.jpg"
+         alt="Alcalá Street in Madrid, covered with snow due to the storm Borrasca Filomena"/> 
+</figure>
+
+
+        </div>
+
+        
+        
+          <div class="btn-improve-page">
+              <a href="https://codeberg.org/FlyingFlamingo/pablomarcos.me//edit//content/posts/Concursos/Season%20of%20KDE%202021/SoK%20Report%20-%20January/index.en.md">
+                <i class="fas fa-code-branch"></i>
+                Improve this page
+              </a>
+          </div>
+        
+
+        
+      <hr />
+        <div class="row next-prev-navigator">
+
+
+  
+
+  
+
+  
+
+  
+    
+      
+      <div class="col-md-6 previous-article">
+        <a href="/posts/concursos/season-of-kde-2021/sok-report-february/" class="btn btn-outline-info">
+          <span><i class="fas fa-chevron-circle-left"></i> Prev</span>
+          <br />
+          <span>SoK 2021 February Report</span>
+        </a>
+      </div>
+      
+    
+    
+      
+        
+        
+          
+              
+          
+        
+        <div class="col-md-6 next-article">
+          <a href="/posts/concursos/centrodelenguas/" class="btn btn-outline-info">
+            <span>Next <i class="fas fa-chevron-circle-right"></i></span>
+            <br />
+            <span>UPM Language Center Poster Contest</span>
+          </a>
+        </div>
+      
+    
+  
+
+  
+
+  
+
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+    
+
+    
+
+
+<div class="dropdown languageSelector">
+    <a class="btn dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <img class="flag" src="https://www.countryflags.io/gb/flat/16.png">
+        English
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+        
+        <a class="dropdown-item nav-link languages-item" href="/es/posts/concursos/season-of-kde-2021/sok-report-january">
+            <img class="flag" src="https://www.countryflags.io/es/flat/24.png">
+            Español
+        </a>
+        
+    </div>
+</div>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#project-application-new-website-for-okular">Project Application: New Website for Okular</a>
+          <ul>
+            <li><a href="#project-goals">Project Goals</a></li>
+            <li><a href="#implementation">Implementation</a></li>
+            <li><a href="#timeline">Timeline</a></li>
+            <li><a href="#about-me">About Me</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+
+  
+
+
+
+
+  
+
+
+
+
+  
+  
+    
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<footer class="container-fluid text-center align-content-center footer pb-2">
+  <div class="container pt-5">
+    <div class="row text-left">
+      <div class="col-md-4 col-sm-12">
+        <h5>Navigation</h5>
+        
+        <ul>
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#about">About</a>
+              </li>
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#skills">Skills</a>
+              </li>
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#experiences">Experiences</a>
+              </li>
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#education">Education</a>
+              </li>
+            
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#projects">Projects</a>
+              </li>
+            
+        </ul>
+        
+
+      </div>
+      
+      <div class="col-md-4 col-sm-12">
+        <h5>Contact me:</h5>
+        <ul>
+          
+          <li><span>Email: </span> <span>web@pablomarcos.me</span></li>
+          
+        </ul>
+      </div>
+      
+      
+    </div>
+  </div>
+  <hr />
+  <div class="container">
+    <div class="row text-left">
+      <div class="col-md-4">
+        <a id="theme" href="https://github.com/hossainemruz/toha" target="#">
+          <img src="/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_2.png">
+          Toha
+        </a>
+      </div>
+      <div class="col-md-4 text-center">© 2020 Pablo Ignacio Marcos López</div>
+      <div class="col-md-4 text-right">
+        <a id="hugo" href="https://gohugo.io/">Powered by
+        <img
+          src="/images/hugo-logo.svg"
+          alt="Hugo Logo"
+          height="18"
+        />
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="/js/jquery-3.4.1.min.js"></script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+<script src="/js/navbar.js"></script>
+<script src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>
