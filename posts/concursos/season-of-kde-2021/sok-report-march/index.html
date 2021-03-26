@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SoK 2021 March Report</title>
+    
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/style.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+<link rel="icon" type="image/png" href="/images/new-favicon_hucdd21eecb8229141dd7886643601b174_45610_42x0_resize_box_2.png" />
+
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+    
+<meta name="description" content="SoK 2021 March Report" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      <img src="/images/main-logo_hu47450349114826056e2be89059cb78d7_20725_42x0_resize_box_2.png">Pablo Marcos&#39; Blog</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+        
+
+  
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <img class="flag" src="https://www.countryflags.io/gb/flat/16.png">
+      English
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+      
+        <a class="dropdown-item nav-link languages-item" href="/es/posts/concursos/season-of-kde-2021/sok-report-march">
+          <img class="flag" src="https://www.countryflags.io/es/flat/24.png">
+          Español
+        </a>
+      
+    </div>
+</li>
+      
+      </ul>
+    </div>
+  </div>
+  
+  <img src="/images/main-logo_hu47450349114826056e2be89059cb78d7_20725_42x0_resize_box_2.png" class="d-none" id="main-logo">
+  <img src="/images/inverted-logo_hu54cab9b231ca4636ef2fd30ef75af799_11321_42x0_resize_box_2.png" class="d-none" id="inverted-logo">
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="https://www.pablomarcos.me/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/posts/concursos/">Contests</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/concursos/vinoyaceite2020/">ETSIAAB Labels 2020</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/concursos/centrodelenguas/">Language Center 2020</a></li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/posts/concursos/season-of-kde-2021/">Season of KDE 2021</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/concursos/season-of-kde-2021/sok-report-february/">SoK 2021 February</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/concursos/season-of-kde-2021/sok-report-january/">SoK 2021 January</a></li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active" href="/posts/concursos/season-of-kde-2021/sok-report-march/">SoK 2021 March</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://www.pablomarcos.me/posts/concursos/season-of-kde-2021/sok-report-march/hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/avataaars.png'/>
+          <h5 class="author-name">Pablo Ignacio Marcos López</h5>
+          <p>March 26, 2021</p>
+        </div>
+
+        <div class="title">
+          <h1>SoK 2021 March Report</h1>
+        </div>
+
+        <div class="post-content" id="post-content">
+          <p>In the february post, I mentioned how I ordered the material that was on Carl Schwan&rsquo;s MVP for the Index page, explaining Okular&rsquo;s main features. Now that that was set, I had to add support for i18n, as it can be difficult for translators to work with a raw html template. <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/a042f38d0fe1d781860a0056721e66349393b997">This was achieved by using the {{i18n}} HUGO template</a>, which specifies the translatable parts by using <code>{{ i18n &quot;Section.variable&quot; }}</code> in each of the strings to translate, and then mapping the values into a yaml file such as:</p>
+<details>
+<summary>/i18n/en.yaml</summary>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#75715e">#Name of the translatable section</span>
+<span style="color:#66d9ef">Section.variable</span>:
+    <span style="color:#66d9ef">other</span>: <span style="color:#e6db74">&#34;English translation for variable&#34;</span>
+<span style="color:#66d9ef">Section.othervariable</span>:
+    <span style="color:#66d9ef">other</span>: <span style="color:#e6db74">&#34;English translation for othervariable&#34;</span>
+<span style="color:#66d9ef">Section.yetanothervariable</span>:
+    <span style="color:#66d9ef">other</span>: <span style="color:#e6db74">&#34;English translation for yetanothervariable&#34;</span></code></pre></div>
+</details>
+<p>I also used this to translate the table of supported formats in /applications. The final result can be seen here:</p>
+<div class="row">
+    
+       <div class="col col-sm-12 col-lg-6">
+            <figure>
+    <img src="/posts/Imagenes/new-okular-site.png"
+         alt="New Okular Website"/> 
+</figure>
+<p>A cool homepage with i18 support
+        </div>
+    
+       <div class="col col-sm-12 col-lg-6">
+            <figure>
+    <img src="/posts/Imagenes/okular-formats.png"
+         alt="New Okular Website&#39;s formats section"/> 
+</figure>
+<p>And the list of file formats Okular can open
+        </div>
+    
+</div>
+
+<p>Next, <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/0e7989a171c36f2d7d0b32332a43a490a27ccf59">I added the /contact page</a>, which I redesigned and updated to include matrix. <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/1795c0da36113ee0219a69d66bfce1595218f94c">I modified the index</a> to include a refference to Okular&rsquo;s <a href="https://invent.kde.org/graphics/okular/-/merge_requests/296">upcoming PDF signing support</a> (¡so neat! I might finally stop using <a href="https://github.com/ctt-gob-es/clienteafirma">Autofirma</a>), and <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/9cab0470f744252ecff9ef9721f71de084167dfb">cleaned up unnecesary files that were left from the transition</a></p>
+<div class="row">
+    
+       <div class="col col-sm-12 col-lg-6">
+            <figure>
+    <img src="/posts/Imagenes/okular-contact.png"
+         alt="New Okular Website&#39;s contact section"/> 
+</figure>
+<p>If you want to contact the developers, there is info on the contact page
+        </div>
+    
+       <div class="col col-sm-12 col-lg-6">
+            <figure>
+    <img src="/posts/Imagenes/okular-esign.png"
+         alt="Okular&#39;s new eSign feature"/> 
+</figure>
+<p>You will be able to sign your own pdfs as well as view and verify other signatures.
+        </div>
+    
+</div>
+
+<p>I also wanted to add client-side <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/05ce2a78d2b77d4e4e4e19e64a7e3601856095bf">Site Search</a>, as the one that existed was really just a button that redirected the search query to a google search. I was inspired by (some might even say <em>copied</em>) <a href="https://gist.github.com/eddiewebb/735feb48f50f0ddd65ae5606a1cb41ae">eddieweb&rsquo;s popular gist</a>, which not only does not require to install additional packages, but also highlights the matches, using JSON and Fuse.js. It was easy to add, but I am still proud! 🤩 It&rsquo;s nice to help the web transition away from google 😊 You can see how that looks like here:</p>
+<p><figure>
+    <img src="/posts/Imagenes/okular-search.png"
+         alt="New Okular Website&#39;s search section"/> 
+</figure>
+
+You can search using the navbar, and results are highlighted</p>
+<p>So, it was a month with lots of work, but the site is finally ready! 🥳</p>
+<style>
+details {
+    border: 1px solid #5850ec;
+    border-radius: 10px;
+    padding: .5rem .5rem 0;
+}
+
+summary {
+    margin: -.5rem -.5rem 0;
+    padding: .5rem;
+}
+
+summary:hover {
+    font-weight: bold;
+}
+
+details[open] {
+    padding: .5rem;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5rem;
+    font-weight: bold;
+}
+</style>
+
+        </div>
+
+        
+        
+          <div class="btn-improve-page">
+              <a href="https://codeberg.org/FlyingFlamingo/pablomarcos.me//edit//content/posts/Concursos/Season%20of%20KDE%202021/SoK%20Report%20-%20March/index.en.md">
+                <i class="fas fa-code-branch"></i>
+                Improve this page
+              </a>
+          </div>
+        
+
+        
+      <hr />
+        <div class="row next-prev-navigator">
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+      
+        
+        
+        <div class="col-md-12 next-article">
+          <a href="/posts/concursos/season-of-kde-2021/sok-report-february/" class="btn btn-outline-info">
+            <span>Next <i class="fas fa-chevron-circle-right"></i></span>
+            <br />
+            <span>SoK 2021 February Report</span>
+          </a>
+        </div>
+      
+    
+  
+
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+    
+
+    
+
+
+<div class="dropdown languageSelector">
+    <a class="btn dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <img class="flag" src="https://www.countryflags.io/gb/flat/16.png">
+        English
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+        
+        <a class="dropdown-item nav-link languages-item" href="/es/posts/concursos/season-of-kde-2021/sok-report-march">
+            <img class="flag" src="https://www.countryflags.io/es/flat/24.png">
+            Español
+        </a>
+        
+    </div>
+</div>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents"></nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+
+  
+
+
+
+
+  
+
+
+
+
+  
+  
+    
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<footer class="container-fluid text-center align-content-center footer pb-2">
+  <div class="container pt-5">
+    <div class="row text-left">
+      <div class="col-md-4 col-sm-12">
+        <h5>Navigation</h5>
+        
+        <ul>
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#about">About</a>
+              </li>
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#skills">Skills</a>
+              </li>
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#experiences">Experiences</a>
+              </li>
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#education">Education</a>
+              </li>
+            
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#projects">Projects</a>
+              </li>
+            
+        </ul>
+        
+
+      </div>
+      
+      <div class="col-md-4 col-sm-12">
+        <h5>Contact me:</h5>
+        <ul>
+          
+          <li><span>Email: </span> <span>web@pablomarcos.me</span></li>
+          
+        </ul>
+      </div>
+      
+      
+    </div>
+  </div>
+  <hr />
+  <div class="container">
+    <div class="row text-left">
+      <div class="col-md-4">
+        <a id="theme" href="https://github.com/hossainemruz/toha" target="#">
+          <img src="/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_2.png">
+          Toha
+        </a>
+      </div>
+      <div class="col-md-4 text-center">© 2020 Pablo Ignacio Marcos López</div>
+      <div class="col-md-4 text-right">
+        <a id="hugo" href="https://gohugo.io/">Powered by
+        <img
+          src="/images/hugo-logo.svg"
+          alt="Hugo Logo"
+          height="18"
+        />
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="/js/jquery-3.4.1.min.js"></script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+<script src="/js/navbar.js"></script>
+<script src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>
