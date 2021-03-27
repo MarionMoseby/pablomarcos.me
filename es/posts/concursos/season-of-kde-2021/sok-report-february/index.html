@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>SoK 2021 February Report</title>
+    <title>SoK 2021 - Informe de Febrero</title>
     
 
 
@@ -38,7 +38,7 @@
 <link rel="stylesheet" href="/css/style.css"/>
 
     
-<meta name="description" content="SoK 2021 February Report" />
+<meta name="description" content="SoK 2021 - Informe de Febrero" />
 <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
@@ -188,12 +188,21 @@
   
   
   
+  
+    
+    <li><a class="" href="/es/posts/concursos/season-of-kde-2021/sok-report-january/">SoK 2021 Enero</a></li>
+  
+
+  
+  
+  
+  
     
     
   
   
     
-    <li><a class="active" href="/es/posts/concursos/season-of-kde-2021/sok-report-february/">SoK 2021 February</a></li>
+    <li><a class="active" href="/es/posts/concursos/season-of-kde-2021/sok-report-february/">SoK 2021 Febrero</a></li>
   
 
   
@@ -202,16 +211,7 @@
   
   
     
-    <li><a class="" href="/es/posts/concursos/season-of-kde-2021/sok-report-january/">SoK 2021 January</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/es/posts/concursos/season-of-kde-2021/sok-report-march/">SoK 2021 March</a></li>
+    <li><a class="" href="/es/posts/concursos/season-of-kde-2021/sok-report-march/">SoK 2021 Marzo</a></li>
   
 
 
@@ -600,13 +600,13 @@
         </div>
 
         <div class="title">
-          <h1>SoK 2021 February Report</h1>
+          <h1>SoK 2021 - Informe de Febrero</h1>
         </div>
 
         <div class="post-content" id="post-content">
-          <p>I started the month by <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/e3e8529ff33be74ea4d9ed59406fdef4e5418127">porting the Anouncements section from Raw HTML to Markdown</a>, for which I wrote a small python script that parses all the content in <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/blob/b22f5e0e420cfddd406139eb814d02b82eeec95b/news.rdf">this news.rdf file</a>, inherited from the old site, and creates several markdown post files that will be processed by the list and single templates of the aether-sass theme into the new section.</p>
+          <p>Empecé el mes <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/e3e8529ff33be74ea4d9ed59406fdef4e5418127">portando la sección de Anuncios de HTML a Markdown</a>, para lo cual escribí un pequeño script en python que analiza todo el contenido de <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/blob/b22f5e0e420cfddd406139eb814d02b82eeec95b/news.rdf">este archivo news.rdf</a>, heredado del antiguo sitio, y crea varios archivos de posts en markdown que serán procesados por las plantillas &lsquo;list.html&rsquo; y &lsquo;single.html&rsquo; del tema aether-sass para convertirlas en la nueva sección.</p>
 <details>
-<summary>To see the full python script, click here</summary>
+<summary>Para ver el script de python al completo, pincha aquí</summary>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> re
 text_file <span style="color:#f92672">=</span> open(<span style="color:#e6db74">&#34;./news.rdf&#34;</span>, <span style="color:#e6db74">&#34;r&#34;</span>)
 data <span style="color:#f92672">=</span> text_file<span style="color:#f92672">.</span>read()
@@ -653,44 +653,44 @@ i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>; mes<s
     f<span style="color:#f92672">.</span>write(<span style="color:#e6db74">&#39;---</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">date: &#39;</span><span style="color:#f92672">+</span>fecha<span style="color:#f92672">+</span><span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">title: &#39;</span><span style="color:#f92672">+</span>titles[i]<span style="color:#f92672">+</span><span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">---</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span><span style="color:#f92672">+</span>fullstories[i])
     <span style="color:#75715e">#f.close()</span></code></pre></div>
 </details>
-<p>Then, I <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/9229e022294accb9b279d87f3d91fb1693251a61">configured the project</a> to use the aforementioned <a href="https://invent.kde.org/websites/aether-sass">aether-sass</a> (KDE&rsquo;s HUGO standard theme) as a Go module, as Git submodules are less desirable. Next, I added <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/62829821d073506f15e46def4d0f1418ec215834">a FAQ section</a>, which was easy since most questions had been removed from the FAQ in a recent cleanup. For this, I used the <code>&lt;/details&gt;</code> and <code>&lt;/summary&gt;</code> HTML labels, which I didnt know about and which seem super cool to me. This was, also, the first time I experienced how a HUGO template works! Yay!</p>
+<p>Luego, <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/9229e022294accb9b279d87f3d91fb1693251a61">configuré el proyecto</a> para usar el ya mencionado <a href="https://invent.kde.org/websites/aether-sass">aether-sass</a> (el tema estándar de KDE para HUGO) como módulo Go, ya que los submódulos Git son menos deseables. A continuación, añadí <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/62829821d073506f15e46def4d0f1418ec215834">una sección de preguntas frecuentes</a>, lo cual fue fácil ya que la mayoría de las preguntas habían sido eliminadas en una limpieza reciente. Para ello, utilicé las etiquetas HTML <code>&lt;/details&gt;</code> y <code>&lt;/summary&gt;</code>, que no conocía y que me parecen super chulas. ¡Esta fue, también, la primera vez que experimenté cómo funciona una plantilla de HUGO! ¡Yay!</p>
 <div class="row">
     
        <div class="col col-sm-12 col-lg-6">
             <figure>
     <img src="/posts/Imagenes/okular-news.png"
-         alt="New Okular Website&#39;s mobile view for the News Section"/> 
+         alt="Vista móvil de la nueva web de Okular para la sección de noticias"/> 
 </figure>
-<p>I improved the News section using HUGO&rsquo;s list.html and a python script
+<p>He mejorado la sección de Noticias usando list.html, de HUGO, y un script de python
         </div>
     
        <div class="col col-sm-12 col-lg-6">
             <figure>
     <img src="/posts/Imagenes/okular-faq.png"
-         alt="New Okular Website&#39;s mobile view for the FAQ section"/> 
+         alt="Vista móvil del nuevo sitio web de Okular para la sección de preguntas frecuentes"/> 
 </figure>
-<p>And added the FAQ using <code>&lt;details&gt;</code> and <code>&lt;summary&gt;</code>
+<p>Y he añadido las preguntas frecuentes usando <code>&lt;detalles&gt;</code> y <code>&lt;resumen&gt;</code>.
         </div>
     
 </div>
 
-<p>Finally, <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/7b85b02878982032487e49058771c9685c39b213">I added the new  /download and /build-it pages, as well as a new index</a>, using a mixture of HUGO markdown and raw html templates. You can see some screenshots below:</p>
+<p>Por último, <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/7b85b02878982032487e49058771c9685c39b213">añadí las nuevas páginas /download y /build-it, así como un nuevo index</a>, utilizando una mezcla de markdown de HUGO y plantillas de html. Puedes ver algunas capturas de pantalla a continuación:</p>
 <div class="row">
     
        <div class="col col-sm-12 col-lg-6">
             <figure>
     <img src="/posts/Imagenes/okular-download.png"
-         alt="New Okular Website&#39;s download section"/> 
+         alt="Sección de descargas de la nueva web de Okular"/> 
 </figure>
-<p>The download section helps you find the availaible download options.
+<p>La sección de descargas te ayuda a encontrar las opciones de descarga disponibles.
         </div>
     
        <div class="col col-sm-12 col-lg-6">
             <figure>
     <img src="/posts/Imagenes/okular-build-it.jpg"
-         alt="New Okular Website&#39;s build-it section"/> 
+         alt="Sección build-it del nuevo sitio web de Okular"/> 
 </figure>
-<p>And the Build It section shows how to build from source
+<p>Y la sección Build It muestra cómo construir el programa desde el código fuente
         </div>
     
 </div>

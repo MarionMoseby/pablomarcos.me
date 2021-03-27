@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>SoK 2021 March Report</title>
+    <title>SoK 2021 - Informe de Marzo</title>
     
 
 
@@ -38,7 +38,7 @@
 <link rel="stylesheet" href="/css/style.css"/>
 
     
-<meta name="description" content="SoK 2021 March Report" />
+<meta name="description" content="SoK 2021 - Informe de Marzo" />
 <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
@@ -190,7 +190,7 @@
   
   
     
-    <li><a class="" href="/es/posts/concursos/season-of-kde-2021/sok-report-february/">SoK 2021 February</a></li>
+    <li><a class="" href="/es/posts/concursos/season-of-kde-2021/sok-report-january/">SoK 2021 Enero</a></li>
   
 
   
@@ -199,7 +199,7 @@
   
   
     
-    <li><a class="" href="/es/posts/concursos/season-of-kde-2021/sok-report-january/">SoK 2021 January</a></li>
+    <li><a class="" href="/es/posts/concursos/season-of-kde-2021/sok-report-february/">SoK 2021 Febrero</a></li>
   
 
   
@@ -211,7 +211,7 @@
   
   
     
-    <li><a class="active" href="/es/posts/concursos/season-of-kde-2021/sok-report-march/">SoK 2021 March</a></li>
+    <li><a class="active" href="/es/posts/concursos/season-of-kde-2021/sok-report-march/">SoK 2021 Marzo</a></li>
   
 
 
@@ -600,71 +600,72 @@
         </div>
 
         <div class="title">
-          <h1>SoK 2021 March Report</h1>
+          <h1>SoK 2021 - Informe de Marzo</h1>
         </div>
 
         <div class="post-content" id="post-content">
-          <p>In the february post, I mentioned how I ordered the material that was on Carl Schwan&rsquo;s MVP for the Index page, explaining Okular&rsquo;s main features. Now that that was set, I had to add support for i18n, as it can be difficult for translators to work with a raw html template. <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/a042f38d0fe1d781860a0056721e66349393b997">This was achieved by using the {{i18n}} HUGO template</a>, which specifies the translatable parts by using <code>{{ i18n &quot;Section.variable&quot; }}</code> in each of the strings to translate, and then mapping the values into a yaml file such as:</p>
+          <p>En el post de febrero, expliqué como he reordenado el material que había en el MVP de Carl Schwan para el index, que ahora explica las principales características de Okular. Una vez hecho esto, me dediqué a añadir soporte para i18n, ya que puede ser difícil para los traductores trabajar con una plantilla de html crudo. Para ello, <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/a042f38d0fe1d781860a0056721e66349393b997">he usado la plantilla {{i18n}} de HUGO</a>, que especifica las partes traducibles usando <code>{{ i18n &quot;Section.variable&quot; }}</code> en cada una de las cadenas a traducir, y luego mapeando los valores en un archivo yaml:</p>
 <details>
-<summary>/i18n/en.yaml</summary>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#75715e">#Name of the translatable section</span>
+<summary>/i18n/es.yaml</summary>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#75715e">#Nombre de la sección traducible.</span>
 <span style="color:#66d9ef">Section.variable</span>:
-    <span style="color:#66d9ef">other</span>: <span style="color:#e6db74">&#34;English translation for variable&#34;</span>
-<span style="color:#66d9ef">Section.othervariable</span>:
-    <span style="color:#66d9ef">other</span>: <span style="color:#e6db74">&#34;English translation for othervariable&#34;</span>
-<span style="color:#66d9ef">Section.yetanothervariable</span>:
-    <span style="color:#66d9ef">other</span>: <span style="color:#e6db74">&#34;English translation for yetanothervariable&#34;</span></code></pre></div>
+    <span style="color:#66d9ef">other</span>: <span style="color:#e6db74">&#34;Traducción al inglés de &#39;variable&#39;&#34;</span>
+<span style="color:#66d9ef">Section.othervariable:</span>:
+    <span style="color:#66d9ef">other</span>: <span style="color:#e6db74">&#34;Traducción al inglés para &#39;othervariable&#39;&#34;</span>
+<span style="color:#66d9ef">Section.yetanothervariable:</span>:
+    <span style="color:#66d9ef">other</span>: <span style="color:#e6db74">&#34;Traducción al inglés para &#39;yetanothervariable&#39;&#34;</span></code></pre></div>
 </details>
-<p>I also used this to translate the table of supported formats in /applications. The final result can be seen here:</p>
+<p>También he utilizado esto para traducir la tabla de formatos soportados en /applications. El resultado final se puede ver aquí:</p>
 <div class="row">
     
        <div class="col col-sm-12 col-lg-6">
             <figure>
     <img src="/posts/Imagenes/new-okular-site.png"
-         alt="New Okular Website"/> 
+         alt="Nuevo sitio web de okular"/> 
 </figure>
-<p>A cool homepage with i18 support
+<p>La página de inicio, con soporte para i18n
         </div>
     
        <div class="col col-sm-12 col-lg-6">
             <figure>
     <img src="/posts/Imagenes/okular-formats.png"
-         alt="New Okular Website&#39;s formats section"/> 
+         alt="Sección de formatos del nuevo sitio web de Okular"/> 
 </figure>
-<p>And the list of file formats Okular can open
+<p>Y la lista de formatos de archivo que Okular puede abrir
         </div>
     
 </div>
 
-<p>Next, <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/0e7989a171c36f2d7d0b32332a43a490a27ccf59">I added the /contact page</a>, which I redesigned and updated to include matrix. <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/1795c0da36113ee0219a69d66bfce1595218f94c">I modified the index</a> to include a refference to Okular&rsquo;s <a href="https://invent.kde.org/graphics/okular/-/merge_requests/296">upcoming PDF signing support</a> (¡so neat! I might finally stop using <a href="https://github.com/ctt-gob-es/clienteafirma">Autofirma</a>), and <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/9cab0470f744252ecff9ef9721f71de084167dfb">cleaned up unnecesary files that were left from the transition</a></p>
+<p>A continuación, <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/0e7989a171c36f2d7d0b32332a43a490a27ccf59">añadí la página de /contacto</a>, que rediseñé y actualicé para incluir la posibilidad de usar matrix. <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/1795c0da36113ee0219a69d66bfce1595218f94c">También modifiqué el index</a> para incluir una referencia a la <a href="https://invent.kde.org/graphics/okular/-/merge_requests/296">próxima funcionalidad de firma de PDFs</a> de Okular (¡UwU! A ver si me sirve de reemplazo para <a href="https://github.com/ctt-gob-es/clienteafirma">Autofirma</a>), y <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/9cab0470f744252ecff9ef9721f71de084167dfb">limpié los archivos innecesarios que quedaban de la transición</a> desde la web anterior.</p>
 <div class="row">
     
        <div class="col col-sm-12 col-lg-6">
             <figure>
     <img src="/posts/Imagenes/okular-contact.png"
-         alt="New Okular Website&#39;s contact section"/> 
+         alt="Nueva sección de contacto de la web de Okular"/> 
 </figure>
-<p>If you want to contact the developers, there is info on the contact page
+<p>Si quieres contactar con los desarrolladores, hay información en la página de contacto
         </div>
     
        <div class="col col-sm-12 col-lg-6">
             <figure>
     <img src="/posts/Imagenes/okular-esign.png"
-         alt="Okular&#39;s new eSign feature"/> 
+         alt="Nueva función de firma de PDFs de Okular"/> 
 </figure>
-<p>You will be able to sign your own pdfs as well as view and verify other signatures.
+<p>También puedes firmar tus propios pdfs así como ver y verificar otras firmas.
         </div>
     
 </div>
 
-<p>I also wanted to add client-side <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/05ce2a78d2b77d4e4e4e19e64a7e3601856095bf">Site Search</a>, as the one that existed was really just a button that redirected the search query to a google search. I was inspired by (some might even say <em>copied</em>) <a href="https://gist.github.com/eddiewebb/735feb48f50f0ddd65ae5606a1cb41ae">eddieweb&rsquo;s popular gist</a>, which not only does not require to install additional packages, but also highlights the matches, using JSON and Fuse.js. It was easy to add, but I am still proud! 🤩 It&rsquo;s nice to help the web transition away from google 😊 You can see how that looks like here:</p>
+<p>También quería añadir <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/05ce2a78d2b77d4e4e4e19e64a7e3601856095bf">un sistema de búsqueda del lado del cliente</a>, ya que el que existía era realmente un botón que redirigía la consulta una búsqueda de Google. Me inspiré en (en los mentideros dirán que <em>me copié de</em>) <a href="https://gist.github.com/eddiewebb/735feb48f50f0ddd65ae5606a1cb41ae">el popular gist de eddieweb</a>, que no sólo no requiere instalar paquetes adicionales, sino que además resalta las coincidencias usando JSON y Fuse.js. Ha sido fácil de añadir, ¡pero sigo estando orgulloso! 🤩 Es bonito ayudar a hacer la web menos dependiente de google 😊</p>
+<p>Puedes ver cómo queda aquí:</p>
 <p><figure>
     <img src="/posts/Imagenes/okular-search.png"
-         alt="New Okular Website&#39;s search section"/> 
+         alt="Sección de búsqueda de la nueva web de Okular"/> 
 </figure>
 
-You can search using the navbar, and results are highlighted</p>
-<p>So, it was a month with lots of work, but the site is finally ready! 🥳</p>
+Puedes buscar usando la barra de navegación, y los resultados están resaltados</p>
+<p>Sí, ha sido un mes con mucho trabajo, pero, ¡por fin está todo listo! 🥳</p>
 <style>
 details {
     border: 1px solid #5850ec;
