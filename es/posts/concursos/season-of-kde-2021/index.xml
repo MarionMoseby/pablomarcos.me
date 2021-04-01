@@ -6,15 +6,24 @@
     <description>Recent content in Season of KDE 2021 on Pablo Marcos&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Apr 2021 14:45:00 +0600</lastBuildDate>
     
 	<atom:link href="https://www.pablomarcos.me/es/posts/concursos/season-of-kde-2021/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>SoK 2021 - Informe de Abril</title>
+      <link>https://www.pablomarcos.me/es/posts/concursos/season-of-kde-2021/sok-report-april/</link>
+      <pubDate>Thu, 01 Apr 2021 14:45:00 +0600</pubDate>
+      
+      <guid>https://www.pablomarcos.me/es/posts/concursos/season-of-kde-2021/sok-report-april/</guid>
+      <description>Todo el trabajo del proyecto se terminó en marzo, así que sólo quedan algunas modificaciones menores y la redacción del informe del proyecto. Creo que los objetivos fijados al inicio se han cumplido en su mayor parte: la nueva web presenta la información de forma más clara, bonita y amigable para los móviles, gracias al tema aether-sass. Tiene búsqueda independiente de google, aunque no utiliza lunar.js como se sugirió, y las noticias de desarrollo están ahora en su propia sección, aunque los changelogs se dejaron fuera de los posts individuales por razones de practicidad.</description>
+    </item>
+    
+    <item>
       <title>SoK 2021 - Informe de Marzo</title>
       <link>https://www.pablomarcos.me/es/posts/concursos/season-of-kde-2021/sok-report-march/</link>
-      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 26 Mar 2021 19:40:00 +0600</pubDate>
       
       <guid>https://www.pablomarcos.me/es/posts/concursos/season-of-kde-2021/sok-report-march/</guid>
       <description>En el post de febrero, expliqué como he reordenado el material que había en el MVP de Carl Schwan para el index, que ahora explica las principales características de Okular. Una vez hecho esto, me dediqué a añadir soporte para i18n, ya que puede ser difícil para los traductores trabajar con una plantilla de html crudo. Para ello, he usado la plantilla {{i18n}} de HUGO, que especifica las partes traducibles usando {{ i18n &amp;quot;Section.</description>

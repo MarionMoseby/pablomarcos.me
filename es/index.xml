@@ -6,10 +6,19 @@
     <description>Recent content on Pablo Marcos&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Apr 2021 14:45:00 +0600</lastBuildDate>
     
 	<atom:link href="https://www.pablomarcos.me/es/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SoK 2021 - Informe de Abril</title>
+      <link>https://www.pablomarcos.me/es/posts/concursos/season-of-kde-2021/sok-report-april/</link>
+      <pubDate>Thu, 01 Apr 2021 14:45:00 +0600</pubDate>
+      
+      <guid>https://www.pablomarcos.me/es/posts/concursos/season-of-kde-2021/sok-report-april/</guid>
+      <description>Todo el trabajo del proyecto se terminó en marzo, así que sólo quedan algunas modificaciones menores y la redacción del informe del proyecto. Creo que los objetivos fijados al inicio se han cumplido en su mayor parte: la nueva web presenta la información de forma más clara, bonita y amigable para los móviles, gracias al tema aether-sass. Tiene búsqueda independiente de google, aunque no utiliza lunar.js como se sugirió, y las noticias de desarrollo están ahora en su propia sección, aunque los changelogs se dejaron fuera de los posts individuales por razones de practicidad.</description>
+    </item>
     
     <item>
       <title>Un abrazo</title>
@@ -19,13 +28,13 @@
       <guid>https://www.pablomarcos.me/es/posts/poesia/abrazo/</guid>
       <description>Un abrazo. A veces sólo hace falta un abrazo. Reposar la cabeza suavemente en tu pecho, dejar de dar por hecho que me quieres porque yo te quiero, perder el miedo, y ser sincero.
 Aunque sea en silencio. Aunque sólo sea con el torpe danzar de nuestros cuerpos, aunque no tengamos remedio y no superemos el miedo a revelar en voz alta que lo único que queremos es querernos.
-Que tenemos que derretirnos en un abrazo sin pretensiones, un abrazo que no deje corazones rotos, sino tan solo la calma que nos cura poco a poco, la promesa de amistad entre nosotros y el deseo de que esto no toque fondo, mientras cae a plomo la noche y olvidamos poco a poco nuestros nombres, remendando así, con mil parches de colores, la suave tela de seda que visten nuestros corazones.</description>
+Que tenemos que derretirnos en un abrazo sin pretensiones, un abrazo que no deje corazones rotos, sino tan solo la calma que nos cura poco a poco, la promesa de amistad entre nosotros y el deseo de que esto no toque fondo, mientras cae a plomo la noche y olvidamos a lo loco nuestros nombres, remendando así, con mil parches de colores, la suave tela de seda que visten nuestros corazones.</description>
     </item>
     
     <item>
       <title>SoK 2021 - Informe de Marzo</title>
       <link>https://www.pablomarcos.me/es/posts/concursos/season-of-kde-2021/sok-report-march/</link>
-      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 26 Mar 2021 19:40:00 +0600</pubDate>
       
       <guid>https://www.pablomarcos.me/es/posts/concursos/season-of-kde-2021/sok-report-march/</guid>
       <description>En el post de febrero, expliqué como he reordenado el material que había en el MVP de Carl Schwan para el index, que ahora explica las principales características de Okular. Una vez hecho esto, me dediqué a añadir soporte para i18n, ya que puede ser difícil para los traductores trabajar con una plantilla de html crudo. Para ello, he usado la plantilla {{i18n}} de HUGO, que especifica las partes traducibles usando {{ i18n &amp;quot;Section.</description>
@@ -105,7 +114,7 @@ He aquí mi cartel:
       <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.pablomarcos.me/es/posts/concursos/vinoyaceite2020/</guid>
-      <description>He sido finalista en el Concursos de Diseño de Etiquetas de Vino y Aceite de 2020 de la ETSIAAB, en el que participé con la ayuda de mi primo, Daniel Marcos, que me ayudó a diseñar la etiqueta de vino, y Marta Pérez, que me ayudó con la de aceite.
+      <description>He sido finalista en el Concurso de Diseño de Etiquetas de Vino y Aceite de 2020 de la ETSIAAB, en el que participé con la ayuda de mi primo, Daniel Marcos, que me ayudó a diseñar la etiqueta de vino, y Marta Pérez, que me ayudó con la de aceite.
   </description>
     </item>
     

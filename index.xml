@@ -6,10 +6,19 @@
     <description>Recent content on Pablo Marcos&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Mar 2021 19:40:00 +0600</lastBuildDate>
+    <lastBuildDate>Thu, 01 Apr 2021 14:45:00 +0600</lastBuildDate>
     
 	<atom:link href="https://www.pablomarcos.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SoK 2021 April Report</title>
+      <link>https://www.pablomarcos.me/posts/concursos/season-of-kde-2021/sok-report-april/</link>
+      <pubDate>Thu, 01 Apr 2021 14:45:00 +0600</pubDate>
+      
+      <guid>https://www.pablomarcos.me/posts/concursos/season-of-kde-2021/sok-report-april/</guid>
+      <description>All work on the project was finished in march, so all that is left is some minor modifications and writing the project report. I believe that the goals set at the start of the project have been mostly fulfilled: the project does in fact present the information in a clear and beautiful, mobile-friendly way, thanks to the aether-sass theme. It has google-independent search, although it does not use lunar.js as was suggested, and the development news are now in its own section, although the changelogs were left outside of the individual posts for practicality reasons.</description>
+    </item>
     
     <item>
       <title>SoK 2021 March Report</title>
