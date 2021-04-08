@@ -6,10 +6,19 @@
     <description>Recent content in Season of KDE 2021 on Pablo Marcos&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Apr 2021 14:45:00 +0600</lastBuildDate>
+    <lastBuildDate>Fri, 09 Apr 2021 01:30:00 +0600</lastBuildDate>
     
 	<atom:link href="https://www.pablomarcos.me/es/posts/concursos/season-of-kde-2021/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SoK 2021 - Informe Final </title>
+      <link>https://www.pablomarcos.me/es/posts/concursos/season-of-kde-2021/sok-final-status-report/</link>
+      <pubDate>Fri, 09 Apr 2021 01:30:00 +0600</pubDate>
+      
+      <guid>https://www.pablomarcos.me/es/posts/concursos/season-of-kde-2021/sok-final-status-report/</guid>
+      <description>Para la Season of KDE 2021, decidí trabajar en el sitio web de Okular. Okular es un programa multifacético que uso casi todos los días para mis necesidades de lectura y anotación de PDF, aunque puede hacer mucho más. Desgraciadamente, su sitio web estaba un poco anticuado y no era apto para móviles. Por lo tanto, me propuse reescribir el sitio web de Okular utilizando el framework HUGO, de forma similar a como se hizo con el sitio web principal de kde.</description>
+    </item>
     
     <item>
       <title>SoK 2021 - Informe de Abril</title>

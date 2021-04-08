@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>SoK 2021 - Informe de Marzo</title>
+    <title>SoK 2021 - Informe Final </title>
     
 
 
@@ -38,7 +38,7 @@
 <link rel="stylesheet" href="/css/style.css"/>
 
     
-<meta name="description" content="SoK 2021 - Informe de Marzo" />
+<meta name="description" content="SoK 2021 - Informe Final " />
 <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
@@ -107,7 +107,7 @@
     </a>
     <div class="dropdown-menu" aria-labelledby="languageSelector">
       
-        <a class="dropdown-item nav-link languages-item" href="/posts/concursos/season-of-kde-2021/sok-report-march">
+        <a class="dropdown-item nav-link languages-item" href="/posts/concursos/season-of-kde-2021/sok-final-status-report">
           <img class="flag" src="https://www.countryflags.io/gb/flat/24.png">
           English
         </a>
@@ -188,9 +188,12 @@
   
   
   
+    
+    
+  
   
     
-    <li><a class="" href="/es/posts/concursos/season-of-kde-2021/sok-final-status-report/">Informe Final</a></li>
+    <li><a class="active" href="/es/posts/concursos/season-of-kde-2021/sok-final-status-report/">Informe Final</a></li>
   
 
   
@@ -224,12 +227,9 @@
   
   
   
-    
-    
-  
   
     
-    <li><a class="active" href="/es/posts/concursos/season-of-kde-2021/sok-report-march/">SoK 2021 Marzo</a></li>
+    <li><a class="" href="/es/posts/concursos/season-of-kde-2021/sok-report-march/">SoK 2021 Marzo</a></li>
   
 
 
@@ -651,7 +651,7 @@
   <div class="content">
     <div class="container p-0 read-area">
       
-      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://www.pablomarcos.me/es/posts/concursos/season-of-kde-2021/sok-report-march/hero.jpg);'>
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://www.pablomarcos.me/es/posts/concursos/season-of-kde-2021/sok-final-status-report/hero.png);'>
       </div>
 
       
@@ -659,109 +659,163 @@
         <div class="author-profile ml-auto align-self-lg-center">
           <img class="rounded-circle" src='/images/author/avataaars.png'/>
           <h5 class="author-name">Pablo Ignacio Marcos López</h5>
-          <p>March 26, 2021</p>
+          <p>April 9, 2021</p>
         </div>
 
         <div class="title">
-          <h1>SoK 2021 - Informe de Marzo</h1>
+          <h1>SoK 2021 - Informe Final </h1>
         </div>
 
         <div class="post-content" id="post-content">
-          <p>En el post de febrero, expliqué como he reordenado el material que había en el MVP de Carl Schwan para el index, que ahora explica las principales características de Okular. Una vez hecho esto, me dediqué a añadir soporte para i18n, ya que puede ser difícil para los traductores trabajar con una plantilla de html crudo. Para ello, <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/a042f38d0fe1d781860a0056721e66349393b997">he usado la plantilla {{i18n}} de HUGO</a>, que especifica las partes traducibles usando <code>{{ i18n &quot;Section.variable&quot; }}</code> en cada una de las cadenas a traducir, y luego mapeando los valores en un archivo yaml:</p>
-<details>
-<summary>/i18n/es.yaml</summary>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#75715e">#Nombre de la sección traducible.</span>
-<span style="color:#66d9ef">Section.variable</span>:
-    <span style="color:#66d9ef">other</span>: <span style="color:#e6db74">&#34;Traducción al inglés de &#39;variable&#39;&#34;</span>
-<span style="color:#66d9ef">Section.othervariable:</span>:
-    <span style="color:#66d9ef">other</span>: <span style="color:#e6db74">&#34;Traducción al inglés para &#39;othervariable&#39;&#34;</span>
-<span style="color:#66d9ef">Section.yetanothervariable:</span>:
-    <span style="color:#66d9ef">other</span>: <span style="color:#e6db74">&#34;Traducción al inglés para &#39;yetanothervariable&#39;&#34;</span></code></pre></div>
-</details>
-<p>También he utilizado esto para traducir la tabla de formatos soportados en /applications. El resultado final se puede ver aquí:</p>
+          <p>Para la Season of KDE 2021, decidí trabajar en el sitio web de Okular. Okular es un programa multifacético que uso casi todos los días para mis necesidades de lectura y anotación de PDF, aunque puede hacer mucho más. Desgraciadamente, su sitio web estaba un poco anticuado y no era apto para móviles. Por lo tanto, me propuse reescribir el sitio web de Okular utilizando el framework HUGO, de forma similar a como se hizo con el sitio web principal de kde.org, y manteniendo la coherencia con otras aplicaciones de KDE como <a href="https://konsole.kde.org/">Konsole</a>. Afortunadamente, parte del trabajo ya fue iniciado por Carl Schwan, por lo que sólo tuve que continuar y terminar su trabajo.</p>
+<h3 id="mentor">Mentor</h3>
+<ul>
+<li><a href="https://invent.kde.org/carlschwan/">Carl Schwan</a></li>
+</ul>
+<h3 id="enlaces">Enlaces</h3>
+<p>Repositorios</p>
+<ul>
+<li><a href="https://invent.kde.org/websites/okular-kde-org/">Repo oficial donde se fusionará todo el trabajo</a></li>
+<li><a href="https://invent.kde.org/carlschwan/okular-kde-org/-/tree/work">Repo de trabajo</a></li>
+</ul>
+<h3 id="trabajo-realizado">Trabajo realizado</h3>
+<h4 id="enero-de-2021">Enero de 2021</h4>
+<p>No hice mucho en enero, ya que era el mes de los &ldquo;partiels&rdquo; (exámenes finales) en INSA y estaba muy ocupado estudiando. Pero, de vuelta a España, <a href="https://www.eldiario.es/sociedad/filomena-tine-blanco-espana-imagenes-nevada-historica_3_6738421.html">¡había mucha nieve!</a> Lo cual es super bonito :p</p>
+<h4 id="febrero-de-2021">Febrero de 2021</h4>
+<p>Empecé por <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/e3e8529ff33be74ea4d9ed59406fdef4e5418127">portar la sección de Anuncios de HTML (RDF) a Markdown</a>, para lo cual escribí un pequeño script. Luego, <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/9229e022294accb9b279d87f3d91fb1693251a61">configuré el proyecto</a> para usar <a href="https://invent.kde.org/websites/aether-sass">aether-sass</a> (el tema estándar HUGO de KDE) como módulo Go, ya que los submódulos Git eran menos deseables. A continuación, añadí <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/62829821d073506f15e46def4d0f1418ec215834">una sección de preguntas frecuentes</a>, lo cual fue fácil ya que la mayoría de las preguntas habían sido eliminadas en una limpieza reciente. Para ello, utilicé las etiquetas HTML <code>&lt;/details&gt;</code> y <code>&lt;/summary&gt;</code>, que no conocía y que me parecen super chulas. Por último, <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/7b85b02878982032487e49058771c9685c39b213">añadí las nuevas páginas /download y /build-it, así como un nuevo index</a>, utilizando una mezcla de markdown de HUGO y plantillas html crudo.</p>
+<h4 id="marzo-de-2021">Marzo de 2021</h4>
+<p>Una vez añadido el index como una plantilla html sin procesar, ahora necesitaba añadir soporte i18n; <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/a042f38d0fe1d781860a0056721e66349393b997">esto se consiguió utilizando la plantilla {{i18n}} de HUGO</a>, que también utilicé en la tabla de formatos soportados de /applications. A continuación, <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/0e7989a171c36f2d7d0b32332a43a490a27ccf59">añadí la página /contacto</a>, que rediseñé y actualicé para incluir matrix. Modifiqué el índice](<a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/1795c0da36113ee0219a69d66bfce1595218f94c">https://invent.kde.org/carlschwan/okular-kde-org/-/commit/1795c0da36113ee0219a69d66bfce1595218f94c</a>) para incluir una referencia a la <a href="https://invent.kde.org/graphics/okular/-/merge_requests/296">próxima compatibilidad con la firma de PDF</a> de Okular (¡qué bien! Puede que finalmente deje de usar <a href="https://github.com/ctt-gob-es/clienteafirma">Autofirma</a>), <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/9cab0470f744252ecff9ef9721f71de084167dfb">limpié los archivos innecesarios que quedaron de la transición</a>, <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/05ce2a78d2b77d4e4e4e19e64a7e3601856095bf">y añadí una funcionalidad de Búsqueda en el Sitio</a> <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/01d76a0403681263c991b55667f038db80323f3c">que funciona</a> del lado del cliente y no depende de google, inspirada en (en los mentideros dirán que <em>copiada de</em>) <a href="https://gist.github.com/eddiewebb/735feb48f50f0ddd65ae5606a1cb41ae">el popular gist de eddieweb</a>.</p>
+<h4 id="abril-de-2021">Abril de 2021</h4>
+<p>Todo el trabajo en el proyecto ya está terminado. Sólo quedan <a href="https://invent.kde.org/websites/okular-kde-org/-/merge_requests/4">algunas modificaciones menores</a> y escribir este informe del proyecto.</p>
+<h3 id="balance-del-proyecto">Balance del proyecto</h3>
+<p>Creo que los <a href="https://season.kde.org/project/46">objetivos fijados al inicio del proyecto</a> (haz clic <a href="https://www.pablomarcos.me/posts/concursos/sok-report-january">aquí</a> si no tienes una cuenta de KDE) se han cumplido en su mayor parte: la nueva web presenta la información de forma clara, bonita y amigable para los móviles, gracias al tema aether-sass. Tiene un sistema de búsqueda independiente de Google, aunque no utiliza lunar.js como se sugirió, y las noticias de desarrollo están ahora en su propia sección, aunque los registros de cambios se dejaron fuera de los mensajes individuales por razones de practicidad. Las capturas de pantalla han sido actualizadas, pero la mayoría han sido eliminadas ya que hemos decidido hacer una página de inicio más sencilla que destaque las características más importantes del programa.</p>
+<p>En definitiva, se han mantenido la mayoría de las características de la antigua página web, pero se ha añadido un rediseño más moderno que aumenta la usabilidad y hace el proyecto más atractivo y coherente con la estética de KDE.</p>
+<h4 id="lo-que-he-aprendido">Lo que he aprendido</h4>
+<ul>
+<li>¡Las etiquetas HTML <code>&lt;/details&gt;</code> y <code>&lt;/summary&gt;</code> existen! Esto ha sido súper útil, pues ya he utilizado ese conocimiento en mi página web personal :p</li>
+<li>Cómo usar HUGO en general, y HUGO i18n en particular</li>
+<li>Que, en mi opinión, HUGO es no solo mucho más modular y adaptable que, por ejemplo, WordPress, sino que, para las personas que sabemos usar la terminal de comandos, es incluso más sencillo</li>
+<li>¡Que Okular está añadiendo soporte para firmas PDF!</li>
+<li>Cómo manejar HTML, CSS y JavaScript, conocimientos importantes que ya he aplicado en mi próximo proyecto, la web de la <a href="https://revista.giepm.com/">Revista Científica &ldquo;Pensamiento Matemático&rdquo;</a></li>
+<li>¡KDE es tan genial como pensaba! 😏</li>
+</ul>
+<h3 id="blog-posts-on-kde-planet">Blog Posts on KDE Planet</h3>
+<p>Los enlaces de estos posts del blog están en mi sitio personal, no en KDE Planet, pero puedes comprobar que se agregan a Planet pinchando <a href="https://invent.kde.org/websites/planet-kde-org/-/commit/fcd89ac67fc2478f9ad456b1384ccae5f1060d51">aquí</a></p>
+<ul>
+<li><a href="https://www.pablomarcos.me/posts/concursos/sok-report-january/">Post de enero de 2021</a></li>
+<li><a href="https://www.pablomarcos.me/posts/concursos/sok-report-february/">Post de febrero de 2021</a></li>
+<li><a href="https://www.pablomarcos.me/posts/concursos/sok-report-march/">Post de marzo de 2021</a></li>
+<li><a href="https://www.pablomarcos.me/posts/concursos/sok-report-april/">Post de abril de 2021</a></li>
+</ul>
+<h3 id="screenshots">Screenshots</h3>
+<p>Aquí puedes encontrar algunos ejemplos del trabajo que he realizado.</p>
 <div class="row">
     
-       <div class="col col-sm-12 col-lg-6">
+       <div class="col col-sm-12 col-lg-3">
             <figure>
-    <img src="/posts/Imagenes/new-okular-site.png"
-         alt="Nuevo sitio web de okular"/> 
+    <img src="/posts/Imagenes/old-okular-mobile-site.png"
+         alt="Vista móvil de la antigua web de Okular"/> 
 </figure>
-<p>La página de inicio, con soporte para i18n
+<p>Como puedes ver, la antigua web no tenía soporte para móviles
         </div>
     
-       <div class="col col-sm-12 col-lg-6">
+       <div class="col col-sm-12 col-lg-3">
             <figure>
-    <img src="/posts/Imagenes/okular-formats.png"
-         alt="Sección de formatos del nuevo sitio web de Okular"/> 
+    <img src="/posts/Imagenes/new-okular-mobile-site.png"
+         alt="Vista móvil del nuevo sitio web de Okular"/> 
 </figure>
-<p>Y la lista de formatos de archivo que Okular puede abrir
+<p>Sin embargo, la segunda versión funciona de maravilla en el móvil
+        </div>
+    
+       <div class="col col-sm-12 col-lg-3">
+            <figure>
+    <img src="/posts/Imagenes/okular-news.png"
+         alt="Vista móvil del nuevo sitio web de Okular para la sección de noticias"/> 
+</figure>
+<p>He mejorado la sección de Noticias usando list.html y un script de python
+        </div>
+    
+       <div class="col col-sm-12 col-lg-3">
+            <figure>
+    <img src="/posts/Imagenes/okular-faq.png"
+         alt="Vista móvil del nuevo sitio web de Okular para la sección de preguntas frecuentes"/> 
+</figure>
+<p>Y añadí las FAQ usando <code>&lt;detalles&gt;</code> y <code>&lt;resumen&gt;</code>.
         </div>
     
 </div>
 
-<p>A continuación, <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/0e7989a171c36f2d7d0b32332a43a490a27ccf59">añadí la página de /contacto</a>, que rediseñé y actualicé para incluir la posibilidad de usar matrix. <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/1795c0da36113ee0219a69d66bfce1595218f94c">También modifiqué el index</a> para incluir una referencia a la <a href="https://invent.kde.org/graphics/okular/-/merge_requests/296">próxima funcionalidad de firma de PDFs</a> de Okular (¡UwU! A ver si me sirve de reemplazo para <a href="https://github.com/ctt-gob-es/clienteafirma">Autofirma</a>), y <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/9cab0470f744252ecff9ef9721f71de084167dfb">limpié los archivos innecesarios que quedaban de la transición</a> desde la web anterior.</p>
 <div class="row">
     
        <div class="col col-sm-12 col-lg-6">
             <figure>
+    <img src="/posts/Imagenes/okular-download.png"
+         alt="Sección de descargas de la nueva web de Okular"/> 
+</figure>
+<p>La sección de descargas te ayuda a encontrar las opciones de descarga disponibles.
+        </div>
+    
+       <div class="col col-sm-12 col-lg-6">
+            <figure>
+    <img src="/posts/Imagenes/okular-build-it.jpg"
+         alt="Sección build-it del nuevo sitio web de Okular"/> 
+</figure>
+<p>Y la sección Build It muestra cómo construir el programa desde el código fuente
+        </div>
+    
+</div>
+
+<div class="row">
+    
+       <div class="col col-sm-12 col-lg-4">
+            <figure>
     <img src="/posts/Imagenes/okular-contact.png"
-         alt="Nueva sección de contacto de la web de Okular"/> 
+         alt="Sección de contacto de la nueva web de Okular"/> 
 </figure>
 <p>Si quieres contactar con los desarrolladores, hay información en la página de contacto
         </div>
     
-       <div class="col col-sm-12 col-lg-6">
+       <div class="col col-sm-12 col-lg-4">
             <figure>
-    <img src="/posts/Imagenes/okular-esign.png"
-         alt="Nueva función de firma de PDFs de Okular"/> 
+    <img src="/posts/Imagenes/okular-formats.png"
+         alt="Sección de formatos del nuevo sitio web de Okular"/> 
 </figure>
-<p>También puedes firmar tus propios pdfs así como ver y verificar otras firmas.
+<p>La página de Formatos Soportados lista las extensiones que Okular puede abrir
+        </div>
+    
+       <div class="col col-sm-12 col-lg-4">
+            <figure>
+    <img src="/posts/Imagenes/okular-search.png"
+         alt="Sección de búsqueda del nuevo sitio web de Okular"/> 
+</figure>
+<p>Se puede buscar usando la barra de navegación, y los resultados se resaltan
         </div>
     
 </div>
 
-<p>También quería añadir <a href="https://invent.kde.org/carlschwan/okular-kde-org/-/commit/05ce2a78d2b77d4e4e4e19e64a7e3601856095bf">un sistema de búsqueda del lado del cliente</a>, ya que el que existía era realmente un botón que redirigía la consulta una búsqueda de Google. Me inspiré en (en los mentideros dirán que <em>me copié de</em>) <a href="https://gist.github.com/eddiewebb/735feb48f50f0ddd65ae5606a1cb41ae">el popular gist de eddieweb</a>, que no sólo no requiere instalar paquetes adicionales, sino que además resalta las coincidencias usando JSON y Fuse.js. Ha sido fácil de añadir, ¡pero sigo estando orgulloso! 🤩 Es bonito ayudar a hacer la web menos dependiente de google 😊</p>
-<p>Puedes ver cómo queda aquí:</p>
-<p><figure>
-    <img src="/posts/Imagenes/okular-search.png"
-         alt="Sección de búsqueda de la nueva web de Okular"/> 
+<p>Y, por último, la comparación lado a lado: Aquí está el antiguo sitio web <a href="https://web.archive.org/web/20210312020118/https://okular.kde.org/">(enlace al Internet Archive)</a>:
+<figure>
+    <img src="/posts/Imagenes/old-okular-site.png"
+         alt="Old Okular Website"/> 
+</figure>
+</p>
+<p>Y aquí está <a href="https://okular.kde.org">la nueva</a>:</p>
+<figure>
+    <img src="/posts/Imagenes/new-okular-site.png"
+         alt="New Okular Website"/> 
 </figure>
 
-Puedes buscar usando la barra de navegación, y los resultados están resaltados</p>
-<p>Sí, ha sido un mes con mucho trabajo, pero, ¡por fin está todo listo! 🥳</p>
-<style>
-details {
-    border: 1px solid #5850ec;
-    border-radius: 10px;
-    padding: .5rem .5rem 0;
-}
-
-summary {
-    margin: -.5rem -.5rem 0;
-    padding: .5rem;
-}
-
-summary:hover {
-    font-weight: bold;
-}
-
-details[open] {
-    padding: .5rem;
-}
-
-details[open] summary {
-    border-bottom: 1px solid #aaa;
-    margin-bottom: .5rem;
-    font-weight: bold;
-}
-</style>
+<h3 id="contacto">Contacto</h3>
+<p>Si quieres hacer sugerencias para este proyecto, no dudes en ponerte en contacto conmigo.</p>
+<p>KDE Invent :- <a href="https://invent.kde.org/flyingflamingo">Pablo Marcos</a></p>
+<p>Matrix :- <a href="https://matrix.to/#/@pablitouh:matrix.org">@pablitouh:matrix.org</a></p>
 
         </div>
 
         
         
           <div class="btn-improve-page">
-              <a href="https://codeberg.org/FlyingFlamingo/pablomarcos.me/_edit/main/content/posts/Concursos/Season%20of%20KDE%202021/SoK%20Report%20-%20March/index.es.md" target="_blank">
+              <a href="https://codeberg.org/FlyingFlamingo/pablomarcos.me/_edit/main/content/posts/Concursos/Season%20of%20KDE%202021/SoK%20Final%20Status%20Report/index.es.md" target="_blank">
                 <i class="fas fa-code-branch"></i>
                 Mejorar esta página
               </a>
@@ -860,44 +914,30 @@ details[open] summary {
   
 
   
-    
-      
-      <div class="col-md-6 previous-article">
-        <a href="/es/posts/poesia/abrazo/" class="btn btn-outline-info">
-          <span><i class="fas fa-chevron-circle-left"></i> Anterior</span>
-          <br />
-          <span>Un abrazo</span>
-        </a>
-      </div>
-      
+
+  
+
+  
+
+  
+
+  
+
+  
     
     
       
         
         
-          
-              
-          
-        
-        <div class="col-md-6 next-article">
-          <a href="/es/posts/poesia/cerezo/" class="btn btn-outline-info">
+        <div class="col-md-12 next-article">
+          <a href="/es/posts/poesia/basta/" class="btn btn-outline-info">
             <span>Siguiente <i class="fas fa-chevron-circle-right"></i></span>
             <br />
-            <span>Te arrancaré</span>
+            <span>Primavera</span>
           </a>
         </div>
       
     
-  
-
-  
-
-  
-
-  
-
-  
-
   
 
 </div>
@@ -923,7 +963,7 @@ details[open] summary {
     </a>
     <div class="dropdown-menu" aria-labelledby="languageSelector">
         
-        <a class="dropdown-item nav-link languages-item" href="/posts/concursos/season-of-kde-2021/sok-report-march">
+        <a class="dropdown-item nav-link languages-item" href="/posts/concursos/season-of-kde-2021/sok-final-status-report">
             <img class="flag" src="https://www.countryflags.io/gb/flat/24.png">
             English
         </a>
@@ -942,7 +982,32 @@ details[open] summary {
       <h5 class="text-center pl-3">Contenido</h5>
       <hr>
       <div class="toc">
-        <nav id="TableOfContents"></nav>
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#mentor">Mentor</a></li>
+        <li><a href="#enlaces">Enlaces</a></li>
+        <li><a href="#trabajo-realizado">Trabajo realizado</a>
+          <ul>
+            <li><a href="#enero-de-2021">Enero de 2021</a></li>
+            <li><a href="#febrero-de-2021">Febrero de 2021</a></li>
+            <li><a href="#marzo-de-2021">Marzo de 2021</a></li>
+            <li><a href="#abril-de-2021">Abril de 2021</a></li>
+          </ul>
+        </li>
+        <li><a href="#balance-del-proyecto">Balance del proyecto</a>
+          <ul>
+            <li><a href="#lo-que-he-aprendido">Lo que he aprendido</a></li>
+          </ul>
+        </li>
+        <li><a href="#blog-posts-on-kde-planet">Blog Posts on KDE Planet</a></li>
+        <li><a href="#screenshots">Screenshots</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
       </div>
     </div>
     
