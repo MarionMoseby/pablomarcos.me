@@ -3,28 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.pablomarcos.me/es/posts/concursos/</loc>
-    <lastmod>2021-04-09T01:30:00+06:00</lastmod>
+    <loc>https://www.pablomarcos.me/es/posts/poesia/courage/</loc>
+    <lastmod>2021-05-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.pablomarcos.me/posts/concursos/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.pablomarcos.me/fr/posts/concursos/"
+                href="https://www.pablomarcos.me/posts/poesia/courage/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.pablomarcos.me/es/posts/concursos/"
+                href="https://www.pablomarcos.me/es/posts/poesia/courage/"
                 />
   </url>
   
   <url>
     <loc>https://www.pablomarcos.me/es/</loc>
-    <lastmod>2021-04-09T01:30:00+06:00</lastmod>
+    <lastmod>2021-05-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -43,8 +38,23 @@
   </url>
   
   <url>
+    <loc>https://www.pablomarcos.me/es/posts/poesia/</loc>
+    <lastmod>2021-05-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.pablomarcos.me/posts/poesia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.pablomarcos.me/es/posts/poesia/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.pablomarcos.me/es/posts/</loc>
-    <lastmod>2021-04-09T01:30:00+06:00</lastmod>
+    <lastmod>2021-05-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -59,6 +69,41 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://www.pablomarcos.me/es/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.pablomarcos.me/es/posts/poesia/renacer/</loc>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pablomarcos.me/es/posts/poesia/teclado/</loc>
+    <lastmod>2021-04-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pablomarcos.me/es/posts/poesia/volver/</loc>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pablomarcos.me/es/posts/concursos/</loc>
+    <lastmod>2021-04-09T01:30:00+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.pablomarcos.me/posts/concursos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.pablomarcos.me/fr/posts/concursos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.pablomarcos.me/es/posts/concursos/"
                 />
   </url>
   
@@ -90,11 +135,6 @@
                 hreflang="es"
                 href="https://www.pablomarcos.me/es/posts/concursos/season-of-kde-2021/sok-final-status-report/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://www.pablomarcos.me/es/posts/poesia/</loc>
-    <lastmod>2021-04-07T03:00:00+06:00</lastmod>
   </url>
   
   <url>
@@ -243,6 +283,11 @@
   </url>
   
   <url>
+    <loc>https://www.pablomarcos.me/es/posts/poesia/simulaci%C3%B3n/</loc>
+    <lastmod>2020-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.pablomarcos.me/es/posts/poesia/egoismo/</loc>
     <lastmod>2020-05-03T00:00:00+00:00</lastmod>
   </url>
@@ -250,11 +295,31 @@
   <url>
     <loc>https://www.pablomarcos.me/es/posts/poesia/if-ants-rose-up/</loc>
     <lastmod>2020-04-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.pablomarcos.me/posts/poesia/if-ants-rose-up/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.pablomarcos.me/es/posts/poesia/if-ants-rose-up/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.pablomarcos.me/es/posts/poesia/estro/</loc>
+    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.pablomarcos.me/es/posts/poesia/peligro/</loc>
     <lastmod>2020-04-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pablomarcos.me/es/posts/poesia/ojala/</loc>
+    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -270,6 +335,26 @@
   <url>
     <loc>https://www.pablomarcos.me/es/posts/poesia/david-revoy/</loc>
     <lastmod>2020-03-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.pablomarcos.me/posts/poesia/david-revoy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.pablomarcos.me/es/posts/poesia/david-revoy/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.pablomarcos.me/es/posts/poesia/metamorfosis/</loc>
+    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.pablomarcos.me/es/posts/poesia/fugaz/</loc>
+    <lastmod>2020-02-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -395,6 +480,16 @@
   <url>
     <loc>https://www.pablomarcos.me/es/posts/poesia/philanthropy/</loc>
     <lastmod>2018-10-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.pablomarcos.me/posts/poesia/philanthropy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.pablomarcos.me/es/posts/poesia/philanthropy/"
+                />
   </url>
   
   <url>
@@ -420,6 +515,16 @@
   <url>
     <loc>https://www.pablomarcos.me/es/posts/poesia/erase/</loc>
     <lastmod>2015-10-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.pablomarcos.me/posts/poesia/erase/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.pablomarcos.me/es/posts/poesia/erase/"
+                />
   </url>
   
   <url>
